@@ -18,11 +18,13 @@ sudo pacman -S firefox
 ```
 2. Instalar o ```requirements.txt```:
 ```
-cd ~
 git clone https://github.com/vieira-brz/hacking-tools.git
 cd hacking-tools/
 sudo mv smehking /opt/smehking
-cd .. && sudo rm -fr hacking-tools/ && cd ~ && cd /opt/smehking
+cd .. 
+sudo rm -fr hacking-tools/
+cd ~
+cd /opt/smehking
 pip install -r requirements.txt
 ```
 
